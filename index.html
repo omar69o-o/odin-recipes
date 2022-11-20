@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+</head>
+<body>
+
+    <h1 style="text-align:center"> odin recipes </h1>
+
+    <h1 style="font-family:'Courier New', Courier, monospace ;"> <pre>      creme caramel                   fried rice            mulukhiyah and chicken</pre></h1>
+        <div class="column">
+          <a href="./recipes/creme_caramel.html" target="_blank"><img src="./img/creme_caramel_main.jpeg" style="width: 400px;" height="300"></a>
+        </div>
+        <div class="column">
+          <a href="./recipes/fried_rice.html" target="_blank"><img src="./img/fried_rice_main.jpeg" style="width: 400px;" height="300"></a>
+        </div>
+        <div class="column">
+            <a href="./recipes/mulukhiyah-and-chicken.html" target="_blank"> <img src="https://everylittlecrumb.com/wp-content/uploads/molokhia-scaled.jpg" style="width: 400px;" height="300"></div></a>
+        </div>
+      </div>
+</body>
+</html>
